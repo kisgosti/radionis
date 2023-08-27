@@ -1,0 +1,13 @@
+type: item
+cost: 1
+color: 272727,
+flammability: 1
+explosiveness: 0.2
+radioactivity: 0.1
+charge: 0
+hardness: 2
+research: tin
+hiddenOnPlanets: [
+  serpulo
+  erekir
+]
