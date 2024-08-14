@@ -1,17 +1,16 @@
 generator: PlanetGenerator
-name: Radionis
 parent: sun
-iconColor: 3cff49
-orbitRadius: 44
+iconColor: 60460f
+orbitRadius: 10
 hasAtmosphere: true
 updateLighting: false
 atmosphereRadIn: 0.01
 atmosphereRadOut: 0.3
-atmosphereColor: 803b20
+atmosphereColor: 60860f
 drawOrbit: true
 accessible: true
 alwaysUnlocked: true
-defaultCore: core-2
+defaultCore: core-technetium
 sectorSeed: 69
 startSector: 8
 sectorSize: 1
@@ -20,52 +19,49 @@ allowSectorInvasion: false
 allowLaunchToNumbered: false
 radius: 1
 hiddenItems: [
-  copper
-  lead
-  scrap
-  graphite
-  coal
-  titanium
-  thorium
-  silicon
-  plastanium
-  phase-fabric
-  surge-alloy
-  spore-pod
-  sand
-  blast-compound
-  pyratite
-  metaglass
-  beryllium
-  oxide
-  tungsten
-  carbide
-  fissile-matter
-  dormant-cyst
+	copper
+	lead
+	scrap
+	titanium
+	silicon
+	plastanium
+	phase-fabric
+	surge-alloy
+	spore-pod
+	sand
+	blast-compound
+	pyratite
+	metaglass
+	beryllium
+	oxide
+	tungsten
+	carbide
+	fissile-matter
+	dormant-cyst
 ]
 cloudMesh: {
-  type: HexSkyMesh
-  planet: Radionis
-  seed: 2
-  speed: 3
-  radius: 0.05
-  divisions: 5
-  color: 8b3103 
-  octaves: 2
-  persistence: 1
-  scl: 2
-  thresh: 0.45
+	type: HexSkyMesh
+	planet: Radionis
+	seed: 2
+	speed: 3
+	radius: 0.05
+	divisions: 5
+	color: 95ae0e
+	octaves: 2
+	persistence: 1
+	scl: 2
+	thresh: 0.45
 }
 mesh: {
-  type: NoiseMesh
-  planet: Radionis
-  seed: 69
-  color1: ffffff
-  color2: 498a8a
-  divisions: 4
-  radius: 0.8
-  octaves: 8
-  persistence: 1
-  scale: 2
-  mag: 1
+	type: NoiseMesh
+	planet: Radionis
+	seed: 69
+	color1: ffffff
+	color2: 6a6b34
+	divisions: 4
+	radius: 0.8
+	octaves: 8
+	persistence: 1
+	scale: 2
+	mag: 1
 }

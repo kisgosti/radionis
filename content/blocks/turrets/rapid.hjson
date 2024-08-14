@@ -1,0 +1,59 @@
+type: ItemTurret
+size: 1
+health: 320
+range: 200
+rotateSpeed: 5
+reload: 40
+burstSpacing: 1
+shots: 3
+xRand: 1
+recoilAmount: 3
+shootSound: shootAltLong
+ammoTypes: {
+	tin: {
+		type: BasicBulletType,
+		speed: 5
+		lifetime: 39
+		damage: 13
+		width: 5
+		height: 7
+		frontColor: b2afb3
+		backColor: d5d2d6
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+		ammoMultiplier: 5
+		collidesTiles: true
+		explodeRange: 1
+		splashDamageRadius: 1
+		splashDamage: 30
+		hitEffect: pointHit
+	}
+}
+shootEffect: {
+	type: MultiEffect
+	effects: [
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 30
+			length: 20
+			sizeFrom: 3
+			sizeTo: 1
+			colorFrom: c8dee3
+			colorTo: dfe8eb
+			strokeFrom: 1
+			strokeTo: 1
+			interp: pow3Out
+			spin: 1
+			sizeInterp: pow2In
+		}
+	]
+}
+category: turret
+requirements: [
+	tin/35
+]
+research: core-technetium
+researchCost: [
+	tin/50
+]

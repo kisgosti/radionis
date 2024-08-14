@@ -2,10 +2,10 @@ type: OverflowGate
 health: 80
 invert: true
 requirements: [
-  tin/4
+	tin/4
 ] 
 category: distribution
 research: tin-overflow
 researchCost: [
-  tin/80
+	tin/80
 ]

@@ -6,10 +6,10 @@ displayedSpeed: 12
 junctionReplacement: tin-junction
 bridgeReplacement: tin-bridge
 requirements: [
-  tin/1
+	tin/1
 ]
 category: distribution
-research: core-2
+research: core-technetium
 researchCost: [
-  tin/20
+	tin/20
 ]

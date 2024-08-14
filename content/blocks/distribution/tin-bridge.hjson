@@ -4,10 +4,10 @@ range: 4
 transportTime: 4
 hasPower: false
 requirements: [
-  tin/5
+	tin/5
 ] 
 category: distribution
-research: tin-junction
+research: tin-router
 researchCost: [
-  tin/100
+	tin/100
 ]

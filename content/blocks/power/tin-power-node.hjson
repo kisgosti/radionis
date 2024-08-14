@@ -3,12 +3,14 @@ size: 1
 maxNodes: 10
 laserRange: 10
 laserColor1: 3cff49
-laserColor2: 006d5b
+laserColor2: 1e7f24
 category: power
 requirements: [
-  radi-graph/4
+	tin/4
+	graphite/2
 ]
 research: tin-combustion-generator
 researchCost: [
-  radi-graph/30
+	tin/30
+	graphite/15
 ]

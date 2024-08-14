@@ -7,14 +7,18 @@ craftEffect: none
 hasPower: false
 updateEffect: none
 consumes: {
-  items: [
-    radi-coal/2
-  ]
+	items: [
+		coal/2
+	]
 }
 requirements: [
-    tin/75
-    radi-coal/30
+	tin/75
+	coal/30
 ]
 category: crafting
-outputItem: radi-graph/1
+outputItem: graphite/1
 research: tin-drill
+researchCost: [
+	tin/120
+	coal/45
+]

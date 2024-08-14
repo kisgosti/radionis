@@ -6,10 +6,10 @@ drillTime: 320
 drawMineItem: true
 rotateSpeed: 5
 requirements: [
-  tin/12
+	tin/12
 ]
 category: production
-research: core-2
+research: core-technetium
 researchCost: [
-  tin/30
+	tin/12
 ]

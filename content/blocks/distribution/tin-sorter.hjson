@@ -1,10 +1,10 @@
 type: Sorter
 health: 80
 requirements: [
-  tin/5
+	tin/5
 ] 
 category: distribution
 research: tin-router
 researchCost: [
-  tin/100
+	tin/100
 ]

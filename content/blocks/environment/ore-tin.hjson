@@ -1,6 +1,6 @@
 type: OreBlock
 oreDefault: true	
-oreScale: 28.380953
+oreScale: 27.91
 oreThreshold: 0.882
 variants: 3
 itemDrop: tin

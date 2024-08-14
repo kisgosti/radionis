@@ -3,9 +3,9 @@ health: 300
 size: 1
 category: defense
 requirements: [
-  tin/6
+	tin/6
 ]
-research: core-2
+research: rapid
 researchCost: [
-  tin/50
+	tin/50
 ]

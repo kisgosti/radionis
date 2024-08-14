@@ -1,0 +1,65 @@
+type: ItemTurret
+size: 2
+health: 900
+range: 220
+rotateSpeed: 15
+reload: 5
+burstSpacing: 1
+shots: 5
+xRand: 1
+recoilAmount: 3
+shootSound: shootBig
+targetGround: false
+consumes: {
+    power: 2
+}
+ammoTypes: {
+	graphite: {
+		type: BasicBulletType,
+		speed: 7
+		lifetime: 39
+		damage: 32
+		width: 5
+		height: 7
+		frontColor: b2afb3
+		backColor: d5d2d6
+		shootEffect: shootBig
+		smokeEffect: shootBigSmoke
+		ammoMultiplier: 8
+		collidesTiles: true
+		explodeRange: 1
+		splashDamageRadius: 1
+		splashDamage: 30
+		hitEffect: pointHit
+	}
+}
+shootEffect: {
+	type: MultiEffect
+	effects: [
+		{
+			type: ParticleEffect
+			particles: 1
+			lifetime: 30
+			length: 20
+			sizeFrom: 3
+			sizeTo: 1
+			colorFrom: c8dee3
+			colorTo: dfe8eb
+			strokeFrom: 1
+			strokeTo: 1
+			interp: pow3Out
+			spin: 1
+			sizeInterp: pow2In
+		}
+	]
+}
+category: turret
+requirements: [
+	tin/100
+	graphite/50
+]
+research: rapid
+researchCost: [
+	tin/3400
+	graphite/1600
+]

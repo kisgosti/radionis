@@ -1,10 +1,10 @@
 type: OverflowGate
 health: 80
 requirements: [
-  tin/4
+	tin/4
 ] 
 category: distribution
-research: tin-bridge
+research: tin-sorter
 researchCost: [
-  tin/80
+	tin/80
 ]

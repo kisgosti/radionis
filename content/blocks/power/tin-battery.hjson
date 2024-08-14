@@ -1,0 +1,34 @@
+type: battery
+size: 2
+	fullLightColor: 79F2EEFF
+	emptyLightColor: 565666FF
+	hasPower: true
+	outputsPower: true
+	consumesPower: true
+	hasItems: false
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+	drawers: [
+		{
+			type: DrawDefault
+		}
+		{
+			type: DrawRegion
+			suffix: -top
+		}
+	]
+}
+consumes: {
+	powerBuffered: 2000
+}
+category: power
+requirements: [
+	tin/10
+	graphite/25
+]
+research: tin-power-node
+researchCost: [
+	tin/60
+	graphite/150
+]
