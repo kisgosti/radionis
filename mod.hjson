@@ -1,8 +1,8 @@
 name: "radionis"
-displayName: "[#3cff49[]]Radionis[white[]]"
-author: "[#ff8604[]]Kisgosti[white[]]"
-description: "Welcome to [#3cff49[]]Radionis[],
-where the ground is even barely stable from pollution. "
+displayName: "[#dfc58e[]]Radionis[white[]]"
+author: "[#ff7f00[]]Kisgosti[white[]]"
+description: "On the planet of Radionis, pollution and radiation has killed almost all forms of life. Your mission is to explore and conquer this wasteland."
+
 version: "0.1"
-minGameVersion: "143.1"
+minGameVersion: "145.1"
 hidden: false
