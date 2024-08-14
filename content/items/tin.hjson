@@ -1,0 +1,15 @@
+type: item
+name: Tin
+description: Common resource on Radionis used in many buildings and as ammunition.
+  "cost": 1,
+  "color": "9c9c9c",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": -0.1,
+  "charge": 0,
+  hardness: 1
+	"research": "core-technetium"
+      hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+    ]

@@ -1,0 +1,24 @@
+type: GenericCrafter
+health: 150
+size: 2
+hasItems: true
+craftTime: 90
+craftEffect: none
+hasPower: false
+updateEffect: none
+consumes: {
+	items: [
+		coal/2
+	]
+}
+requirements: [
+	tin/75
+	coal/30
+]
+category: crafting
+outputItem: graphite/1
+research: tin-drill
+researchCost: [
+	tin/120
+	coal/45
+]

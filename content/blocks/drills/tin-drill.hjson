@@ -1,0 +1,15 @@
+type: Drill
+size: 2
+itemCapacity: 10
+tier: 5
+drillTime: 320
+drawMineItem: true
+rotateSpeed: 5
+requirements: [
+	tin/12
+]
+category: production
+research: core-technetium
+researchCost: [
+	tin/12
+]

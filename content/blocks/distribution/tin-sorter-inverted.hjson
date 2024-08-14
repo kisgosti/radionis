@@ -1,0 +1,11 @@
+type: Sorter
+health: 80
+invert: true
+requirements: [
+	tin/5
+] 
+category: distribution
+research: tin-sorter
+researchCost: [
+	tin/100
+]

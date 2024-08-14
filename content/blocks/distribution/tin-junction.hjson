@@ -1,0 +1,12 @@
+type: Junction
+health: 80
+speed: 12
+capacity: 8
+requirements: [
+	tin/2
+] 
+category: distribution
+research: tin-conveyor
+researchCost: [
+	tin/40
+]

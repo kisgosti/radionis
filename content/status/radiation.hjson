@@ -1,0 +1,5 @@
+color: 000000
+healthMultiplier: 0.9
+dmageMultiplier: 0.9
+reloadMultiplier: 0.9
+damage: 0.1

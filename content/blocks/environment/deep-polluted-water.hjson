@@ -1,0 +1,12 @@
+type: Floor
+variants: 0
+speedMultiplier: 0.2
+isLiquid: true
+liquidMultplier: 1.5
+liquidDrop: polluted-water
+cacheLayer: water
+status: wet
+statusDuration: 120
+drownTime: 200
+albedo: 0.7
+supportsOverlay: true
